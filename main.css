@@ -1,5 +1,43 @@
+/* GENERAL */
+
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
+
+body{
+    background-color: rgb(235, 228, 219);
+}
+
+/* UTILITIES */
+
+.Container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+/* HEADER */
+
+header{
+    margin: 15px 0;
+}
+
+.Container.head{
+    height: 100px;  /* altezza fake */
+    padding: 15px;
+    background-color: rgb(195, 150, 236);
+
+}
+
+.Container.main{
+    height: 300px;  /* altezza fake */
+    padding: 15px;
+    background-color: rgb(241, 178, 126);
+}
+
+
+
+
+
