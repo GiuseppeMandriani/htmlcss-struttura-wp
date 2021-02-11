@@ -26,13 +26,12 @@ body{
 }
 
 /* HEADER */
+
 header .header{
     height: 100px; /* fake height */
     margin-bottom: 15px;
     background-color: rgb(232, 142, 255);
 }
-
-
 
 /* MAIN */
 
