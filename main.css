@@ -8,34 +8,86 @@
 
 body{
     background-color: rgb(235, 228, 219);
+    padding: 15px;
 }
+
 
 /* UTILITIES */
 
 .Container{
     width: 1200px;
-    margin: 0 auto;
+    margin:0 auto;
 }
 
+.Clearfix{
+    content: "";
+    display: table;
+    clear: both;
+}
 
 /* HEADER */
-
-header{
-    margin: 15px 0;
+header .header{
+    height: 100px; /* fake height */
+    margin-bottom: 15px;
+    background-color: rgb(232, 142, 255);
 }
 
-.Container.head{
-    height: 100px;  /* altezza fake */
-    padding: 15px;
-    background-color: rgb(195, 150, 236);
+
+
+/* MAIN */
+
+/* Principale */
+
+main .Slide{
+    height: 250px;
+    margin-bottom:15px ;
+    background-color: sandybrown;
+}
+
+
+main .Article{
+    height: 500px;
+    margin-bottom:15px ;
+    background-color: rgb(27, 4, 233);
 
 }
 
-.Container.main{
-    height: 300px;  /* altezza fake */
-    padding: 15px;
-    background-color: rgb(241, 178, 126);
+/* Sezioni */
+
+
+section .Title{
+    width: 100%;
+    height: 50px;
+    margin-bottom: 15px;
+    background-color: skyblue;
 }
+
+section .Left-Sidebar, section .Right-Sidebar{
+    width: 28%;
+    height: 400px;
+    margin-right: 2%;
+    background-color: skyblue;
+    float: left;
+}
+
+section .Right-Sidebar{
+    margin-right: 0;
+    margin-left: 2%;
+}
+
+section .Central{
+    width:40%;
+    height: 400px;
+    background-color: skyblue;
+    float: left;
+}
+
+/* FOOTER */
+footer .foot{
+    height: 60px; /* fake height */
+    background-color: purple;
+}
+
 
 
 
